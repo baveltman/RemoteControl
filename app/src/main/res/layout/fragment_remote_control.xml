@@ -25,19 +25,28 @@
         android:textColor="#cccccc"
         android:textSize="20dp" />
 
-    <TableRow android:layout_weight="1" >
-        <Button
-            android:id="@+id/fragment_remote_control_zeroButton"
-            style="@style/RemoteButton"
-            android:text="0" />
-        <Button
-            android:id="@+id/fragment_remote_control_oneButton"
-            style="@style/RemoteButton"
-            android:text="1" />
-        <Button
-            android:id="@+id/fragment_remote_control_enterButton"
-            style="@style/RemoteButton"
-            android:text="Enter" />
-    </TableRow>
+    <include
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        layout="@layout/table_button_row"
+        android:layout_width="match_parent" />
+
+    <include
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        layout="@layout/table_button_row"
+        android:layout_width="match_parent" />
+
+    <include
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        layout="@layout/table_button_row"
+        android:layout_width="match_parent" />
+
+    <include
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        layout="@layout/table_button_row"
+        android:layout_width="match_parent" />
 
 </TableLayout>
