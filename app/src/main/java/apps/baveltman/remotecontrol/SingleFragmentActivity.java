@@ -1,11 +1,9 @@
-package apps.baveltman.criminalintent;
+package apps.baveltman.remotecontrol;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentManager;
-
-import apps.baveltman.remotecontrol.R;
 
 /**
  * Abstract class to manage any UI that consists of a single fragment
